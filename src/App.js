@@ -1,13 +1,18 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Dashboard from './components/Dashboard';
+import About from './components/About';
+import Project from './components/Project';
+import Skills from './components/Skill';
+import Contact from './components/Contact';
 
 function App() {
 	return (
 		<div className='App'>
-			<header className='App-header'>
-				<h1>Krunal</h1>
-			</header>
+			<Dashboard />
+			<About />
+			<Skills />
+			<Project />
+			<Contact />
 		</div>
 	);
 }
