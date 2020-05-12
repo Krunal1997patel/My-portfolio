@@ -1,4 +1,5 @@
 import React from 'react';
+import './App.css';
 import Dashboard from './components/Dashboard';
 import Nav from './components/Nav';
 import About from './components/About';
@@ -10,11 +11,13 @@ function App() {
 	return (
 		<div className='App'>
 			<Nav />
-			<Dashboard />
-			<About />
-			<Skills />
-			<Project />
-			<Contact />
+			<div>
+				<Dashboard />
+				<About />
+				<Skills />
+				<Project />
+				<Contact />
+			</div>
 		</div>
 	);
 }
