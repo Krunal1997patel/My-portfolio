@@ -13,18 +13,18 @@ const Nav = (props) => {
 	return (
 		<div className='navbar'>
 			<div className='center'>
-				<div>
+				<div className='logo'>
 					<a href='#'>Kp</a>
 				</div>
 
 				<div className='allLinks'>
-					<a href='#'>About</a>
+					<a href='#About'>About</a>
 
-					<a href='#'>Skill</a>
+					<a href='#Skill'>Skill</a>
 
-					<a href='#'>Project</a>
+					<a href='#Project'>Project</a>
 
-					<a href='#'>Contact</a>
+					<a href='#Contact'>Contact</a>
 				</div>
 			</div>
 		</div>

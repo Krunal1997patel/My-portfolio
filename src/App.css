@@ -1,15 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 .App {
 	text-align: center;
 }
 
-/* .dark-mode {
-	background-color: #191919;
-	color: white;
-	transition: ease-in 1s;
+body {
+	background-color: rgb(253, 253, 17);
+	font-family: 'Roboto', sans-serif;
 }
 
-body {
-	background-color: white;
-	color: black;
-	transition: ease-out 1s;
-} */
+html {
+	scroll-behavior: smooth;
+}
