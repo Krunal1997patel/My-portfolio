@@ -1,12 +1,8 @@
 .App {
-	margin: 0 auto;
-	max-width: 1080px;
 	text-align: center;
-	display: flex;
-	justify-content: center;
 }
 
-.dark-mode {
+/* .dark-mode {
 	background-color: #191919;
 	color: white;
 	transition: ease-in 1s;
@@ -16,4 +12,4 @@ body {
 	background-color: white;
 	color: black;
 	transition: ease-out 1s;
-}
+} */
