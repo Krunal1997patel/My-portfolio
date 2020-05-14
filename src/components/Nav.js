@@ -33,8 +33,8 @@ const Nav = (props) => {
 
 export default Nav;
 
-{
-	/* {DarkMode === true ? (
+// {
+/* {DarkMode === true ? (
 	<button
 		onClick={toggleDarkMode}
 		className={DarkMode ? 'dark-button dark-
@@ -48,4 +48,4 @@ export default Nav;
 		<img src='https://img.icons8.com/nolan/64/full-moon.png' />
 	</button>
 )} */
-}
+// }

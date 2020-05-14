@@ -1,0 +1,33 @@
+.about-background {
+	width: 100%;
+
+	.about-center {
+		max-width: 1000px;
+		margin: 0 auto;
+
+		h2 {
+			text-align: left;
+			font-style: normal;
+			font-weight: bold;
+			font-size: 50px;
+			line-height: 59px;
+			color: black;
+			margin: 0;
+		}
+
+		hr {
+			border: 7px solid #000000;
+			transform: rotate(180deg);
+			// margin: 2px auto;
+		}
+
+		p {
+			text-align: left;
+			font-style: normal;
+			font-weight: 300;
+			font-size: 23px;
+			line-height: 27px;
+			color: black;
+		}
+	}
+}

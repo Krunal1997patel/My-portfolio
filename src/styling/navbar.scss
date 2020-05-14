@@ -3,6 +3,7 @@
 	background-color: #ffffff;
 	// background-color: red;
 	width: 100%;
+	z-index: 1;
 
 	.center {
 		display: flex;
@@ -11,11 +12,12 @@
 		justify-content: space-between;
 
 		.logo {
-			padding: 10px 0 10px 0;
+			text-align: left;
+			padding: 5px 0 5px 0;
 			font-family: Roboto;
 			font-style: normal;
 			font-weight: bold;
-			font-size: 50px;
+			font-size: 43px;
 			line-height: 59px;
 			color: #000000;
 			width: 20%;
@@ -31,6 +33,14 @@
 			line-height: 23px;
 			width: 60%;
 
+			:hover {
+				border: 1px black solid;
+				border-radius: 20px;
+				padding: 8px;
+				box-shadow: 4px 3px 6px 0px;
+				transition: 1s;
+			}
+
 			@media only screen and (max-width: 600px) {
 				width: 80%;
 			}
@@ -39,6 +49,9 @@
 		a {
 			text-decoration: none;
 			color: black;
+			border: 1px white solid;
+			border-radius: 20px;
+			padding: 8px;
 		}
 	}
 }
