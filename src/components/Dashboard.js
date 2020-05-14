@@ -1,5 +1,6 @@
 import React from 'react';
 import '../styling/dashboard.scss';
+import codeimage from '../images/code-img.svg';
 
 const Dashboard = (props) => {
 	var TxtType = function (el, toRotate, period) {
@@ -63,17 +64,22 @@ const Dashboard = (props) => {
 	return (
 		<div className='dashboard-background'>
 			<div className='dashboard-center'>
-				<h3 className='text-1'>Hey, i'm</h3>
-				<h1 className='text-2'>Krunal</h1>
-				<h1 className='text-3'>Patel</h1>
-				<h3 className='text-4'>
-					I am a
-					<span
-						className='text-4 typewrite'
-						// data-period='2000'
-						data-type='[ " Full Stack Web Developer.", " Front End Developer.", " Back End Developer.", " Gamer." ]'
-					></span>
-				</h3>
+				<div className='dashboard-text'>
+					<h3 className='text-1'>Hey, i'm</h3>
+					<h2 className='text-2'>Krunal</h2>
+					<h2 className='text-3'>Patel</h2>
+					<h3 className='text-4'>
+						I am a
+						<span
+							className='text-4 typewrite'
+							// data-period='2000'
+							data-type='[ " Full Stack Developer.", " Front End Developer.", " Back End Developer.", " Gamer." ]'
+						></span>
+					</h3>
+				</div>
+				<div className='dashboard-img'>
+					<img src={codeimage} alt='codeing image' />
+				</div>
 			</div>
 		</div>
 	);

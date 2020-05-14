@@ -5,6 +5,25 @@
 		max-width: 1000px;
 		margin: 0 auto;
 
+		.skill-img {
+			display: flex;
+			justify-content: space-evenly;
+			flex-wrap: wrap;
+			margin: 5% auto;
+
+			.skill-info {
+				margin: 0 40px 0 0;
+			}
+
+			.one-images {
+				width: 50%;
+			}
+
+			h3 {
+				font-size: 20px;
+			}
+		}
+
 		h2 {
 			font-family: Roboto;
 			text-align: left;
@@ -17,7 +36,8 @@
 		}
 
 		hr {
-			border: 7px solid #000000;
+			margin: 0;
+			border: 3px solid #000000;
 			transform: rotate(180deg);
 			// margin: 2px auto;
 		}

@@ -1,4 +1,9 @@
 import React from 'react';
+import GithubLogo from '../images/github-brands.svg';
+import EmailLogo from '../images/envelope-regular.svg';
+import ResumeLogo from '../images/file-regular.svg';
+import LocationLogo from '../images/map-marker-alt-solid.svg';
+import LinkedinLogo from '../images/linkedin-in-brands.svg';
 import '../styling/contact.scss';
 
 const Contact = (props) => {
@@ -14,7 +19,7 @@ const Contact = (props) => {
 								<label>
 									Full Name
 									<br />
-									<input type='text' name='name' textarea='' />
+									<input type='text' name='name' className='name' />
 								</label>
 							</p>
 							<p>
@@ -29,7 +34,12 @@ const Contact = (props) => {
 								<label>
 									Message
 									<br />
-									<textarea name='message'></textarea>
+									<textarea
+										rows='4'
+										cols='30'
+										className='text-area'
+										name='message'
+									></textarea>
 								</label>
 							</p>
 							<p>
@@ -40,8 +50,35 @@ const Contact = (props) => {
 						</form>
 					</div>
 
+					<div className='vl'></div>
+
 					<div className='my-info'>
-						<a>Laurel, Maryland</a>
+						<a>
+							<img src={LocationLogo} alt='location-img' />
+							Laurel, Maryland
+						</a>
+						<a href='https://github.com/Krunal1997patel' target='blank'>
+							<img src={GithubLogo} alt='github-img' />
+							GitHub
+						</a>
+						<a href='https://www.linkedin.com/in/pkrunal616/' target='blank'>
+							<img src={LinkedinLogo} alt='linkedin-img' />
+							linkedin
+						</a>
+						<a
+							href='https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=pkrunal616@gmail.com'
+							target='blank'
+						>
+							<img src={EmailLogo} alt='email-img' />
+							Pkrunal@gmail.com
+						</a>
+						<a
+							href='https://docs.google.com/document/d/19GHQKMO2MZADJMic1nucwd0NH4qPUXjVan7jX0MSM7o/edit'
+							target='blank'
+						>
+							<img src={ResumeLogo} alt='resume-img' />
+							Resume
+						</a>
 					</div>
 				</div>
 			</div>

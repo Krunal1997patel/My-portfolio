@@ -1,48 +1,54 @@
 .dashboard-background {
 	height: 100vh;
-	width: 100%;
+	// width: 100%;
 
 	.dashboard-center {
+		// width: 100%;
 		display: flex;
-		flex-direction: column;
+		// flex-direction: column;
+		justify-content: space-between;
 		max-width: 1000px;
 		margin: 0 auto;
 		text-align: left;
 
+		.dashboard-img {
+			img {
+				padding: 10% 0 0 0;
+				margin: 65% 0 0 0;
+				width: 100%;
+			}
+		}
+
+		.dashboard-text {
+			width: 100%;
+		}
+
 		.text-1 {
-			margin: 0;
-			font-family: Roboto;
+			margin: 30% 0 0 0;
 			font-style: normal;
 			font-weight: normal;
 			font-size: 29px;
-			line-height: 34px;
 		}
 
 		.text-2 {
 			margin: 0;
-			font-family: Roboto;
 			font-style: normal;
 			font-weight: bold;
 			font-size: 175px;
-			line-height: 205px;
 		}
 
 		.text-3 {
 			margin: 0;
-			font-family: Roboto;
 			font-style: normal;
 			font-weight: bold;
 			font-size: 175px;
-			line-height: 205px;
 		}
 
 		.text-4 {
 			margin: 0;
-			font-family: Roboto;
 			font-style: normal;
 			font-weight: normal;
 			font-size: 37px;
-			line-height: 43px;
 		}
 	}
 }

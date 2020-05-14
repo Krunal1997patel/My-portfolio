@@ -7,7 +7,13 @@
 
 		.contact-input-info {
 			display: flex;
-			justify-content: space-around;
+			justify-content: space-evenly;
+
+			.vl {
+				margin: 2% 0;
+				border-left: 6px solid black;
+				height: 500px;
+			}
 
 			.form-input {
 				font-family: Roboto;
@@ -16,12 +22,23 @@
 				font-size: 32px;
 				line-height: 37px;
 				color: #000000;
-				border-right: 2px solid black;
+				text-align: left;
 
 				input {
 					border-radius: 20px;
 					border: 1px solid white;
-					width: 100%;
+					// width: 100%;
+					outline: none;
+					padding: 5px 0 5px 20px;
+				}
+
+				.text-area {
+					border-radius: 20px;
+					border: 1px solid white;
+					// width: 100%;
+					padding: 0 0 0 20px;
+					outline: none;
+					// resize: none;
 				}
 
 				.button {
@@ -36,16 +53,31 @@
 					font-size: 25px;
 					padding: 6px 16px;
 					text-align: center;
+					cursor: pointer;
 				}
 			}
 
 			.my-info {
-				font-family: Roboto;
-				font-style: normal;
-				font-weight: 500;
-				font-size: 30px;
-				line-height: 35px;
-				color: #000000;
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				// width: 80%;
+
+				a {
+					// font-style: normal;
+					// font-weight: 500;
+					// line-height: 35px;
+					font-size: 30px;
+					color: #000000;
+					margin: 0px 0 45px 0;
+					display: flex;
+					text-decoration: none;
+
+					img {
+						width: 30px;
+						margin: 0 10px 0 0;
+					}
+				}
 			}
 		}
 
@@ -61,7 +93,8 @@
 		}
 
 		hr {
-			border: 7px solid #000000;
+			margin: 0;
+			border: 3px solid #000000;
 			transform: rotate(180deg);
 			// margin: 2px auto;
 		}
