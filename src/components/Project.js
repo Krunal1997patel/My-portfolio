@@ -11,7 +11,7 @@ const Project = (props) => {
 			image: celebDeadOrAlive,
 			name: 'Celebrities Dead or Alive',
 			info:
-				' This application tests your knowledge to know if the Celebrities are dead or alive. I was in charge of styling the full application and making the signup part of the application, and the timer, and how to redirect the user after the timer runs out. ',
+				' This application tests your knowledge to know if the Celebrities are dead or alive. I was in charge of styling the full application and making the signup part of the application, and the timer, and how to redirect the user after the timer runs out.',
 			demo: 'https://celeb-doa.netlify.app/',
 			github: 'https://github.com/Buildweek-Dead-Celebrities',
 		},
@@ -27,7 +27,7 @@ const Project = (props) => {
 			image: Nasa,
 			name: 'NASA Photo Of Day',
 			info:
-				' Helping parents establish better diets for their children. I was in charge of fully developing the backend with RESTful API with the use of Node, Express, Knex, SQL, and deploying the Gigapet backend on Heroku.',
+				'Receive a wonderful space photo from NASA photo of the day, with a photo name and a description of the photo. Build using React and styling with ReactStrap and using Axios on NASA API.',
 			demo: 'https://space-photo.netlify.app',
 			github:
 				'https://github.com/Krunal1997patel/nasa-photo-of-the-day/tree/part-2',
@@ -36,7 +36,7 @@ const Project = (props) => {
 			image: Rick,
 			name: 'Rick And Morty',
 			info:
-				' Helping parents establish better diets for their children. I was in charge of fully developing the backend with RESTful API with the use of Node, Express, Knex, SQL, and deploying the Gigapet backend on Heroku.',
+				'This is a Rick & Morty Fan Page where the fan of the show can search up their favorite character and location. It was built using react, hooks, styled-components, and Axios for rick and Morty API.',
 			demo: 'https://rick-info.netlify.app',
 			github:
 				'https://github.com/Krunal1997patel/Sprint-Challenge-Single-Page-Apps/tree/krunal-patel',
