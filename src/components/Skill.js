@@ -68,7 +68,7 @@ const Skill = (props) => {
 				<div className='skill-img'>
 					{skillImages.map((imgs) => (
 						<div className='skill-info' key={imgs.name}>
-							<img src={imgs.img} className='one-images' />
+							<img src={imgs.img} className='one-images' alt='images' />
 							<h3 className='skill-name'>{imgs.name}</h3>
 						</div>
 					))}

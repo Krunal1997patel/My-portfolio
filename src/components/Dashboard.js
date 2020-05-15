@@ -78,7 +78,7 @@ const Dashboard = (props) => {
 					</h3>
 				</div>
 				<div className='dashboard-img'>
-					<img src={codeimage} alt='codeing image' />
+					<img src={codeimage} alt='codeing ' />
 				</div>
 			</div>
 		</div>
