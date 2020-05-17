@@ -53,13 +53,13 @@ const Contact = (props) => {
 					<div className='vl'></div>
 
 					<div className='my-info'>
-						<a>
+						<a className='hide'>
 							<img src={LocationLogo} alt='location-img' />
 							Laurel, Maryland
 						</a>
 						<a href='https://github.com/Krunal1997patel' target='blank'>
 							<img src={GithubLogo} alt='github-img' />
-							GitHub
+							<span>GitHub</span>
 						</a>
 						<a href='https://www.linkedin.com/in/pkrunal616/' target='blank'>
 							<img src={LinkedinLogo} alt='linkedin-img' />
@@ -70,7 +70,7 @@ const Contact = (props) => {
 							target='blank'
 						>
 							<img src={EmailLogo} alt='email-img' />
-							Pkrunal@gmail.com
+							Email
 						</a>
 						<a
 							href='https://docs.google.com/document/d/19GHQKMO2MZADJMic1nucwd0NH4qPUXjVan7jX0MSM7o/edit'
