@@ -11,6 +11,10 @@
 		margin: 0 auto;
 		text-align: left;
 
+		@media only screen and (max-width: 550px) {
+			text-align: center;
+		}
+
 		.dashboard-img {
 			img {
 				padding: 10% 0 0 0;
@@ -39,6 +43,10 @@
 			font-style: normal;
 			font-weight: bold;
 			font-size: 175px;
+
+			@media only screen and (max-width: 550px) {
+				font-size: 700%;
+			}
 		}
 
 		.text-3 {
@@ -46,6 +54,10 @@
 			font-style: normal;
 			font-weight: bold;
 			font-size: 175px;
+
+			@media only screen and (max-width: 550px) {
+				font-size: 700%;
+			}
 		}
 
 		.text-4 {

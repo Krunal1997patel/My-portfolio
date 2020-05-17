@@ -35,8 +35,8 @@ const Contact = (props) => {
 									Message
 									<br />
 									<textarea
-										rows='4'
-										cols='30'
+										// rows='4'
+										// cols='30'
 										className='text-area'
 										name='message'
 									></textarea>
@@ -63,21 +63,21 @@ const Contact = (props) => {
 						</a>
 						<a href='https://www.linkedin.com/in/pkrunal616/' target='blank'>
 							<img src={LinkedinLogo} alt='linkedin-img' />
-							linkedin
+							<span>linkedin</span>
 						</a>
 						<a
 							href='https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=pkrunal616@gmail.com'
 							target='blank'
 						>
 							<img src={EmailLogo} alt='email-img' />
-							Email
+							<span>Email</span>
 						</a>
 						<a
 							href='https://docs.google.com/document/d/19GHQKMO2MZADJMic1nucwd0NH4qPUXjVan7jX0MSM7o/edit'
 							target='blank'
 						>
 							<img src={ResumeLogo} alt='resume-img' />
-							Resume
+							<span>Resume</span>
 						</a>
 					</div>
 				</div>

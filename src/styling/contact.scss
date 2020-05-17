@@ -38,6 +38,12 @@
 					// width: 100%;
 					outline: none;
 					padding: 5px 0 5px 20px;
+
+					@media only screen and (max-width: 550px) {
+						padding: 0;
+						width: 90%;
+						padding: 0 0 0 13px;
+					}
 				}
 
 				.text-area {
@@ -47,6 +53,18 @@
 					padding: 0 0 0 20px;
 					outline: none;
 					// resize: none;
+					height: 127px;
+					width: 105%;
+
+					@media only screen and (max-width: 770px) {
+						width: 80%;
+						height: 120px;
+					}
+
+					@media only screen and (max-width: 550px) {
+						width: 90%;
+						height: 120px;
+					}
 				}
 
 				.button {
@@ -62,6 +80,12 @@
 					padding: 6px 16px;
 					text-align: center;
 					cursor: pointer;
+
+					@media only screen and (max-width: 550px) {
+						// margin: 0 2%;
+						padding: 10px 0;
+						width: 100%;
+					}
 				}
 			}
 
@@ -77,6 +101,10 @@
 					}
 				}
 
+				@media only screen and (max-width: 550px) {
+					flex-direction: row;
+				}
+
 				a {
 					// font-style: normal;
 					// font-weight: 500;
@@ -86,6 +114,11 @@
 					margin: 0px 0 45px 0;
 					display: flex;
 					text-decoration: none;
+
+					@media only screen and (max-width: 550px) {
+						display: flex;
+						margin: 5px 20px;
+					}
 
 					span {
 						@media only screen and (max-width: 550px) {
