@@ -14,7 +14,7 @@ const Contact = (props) => {
 				<hr />
 				<div className='contact-input-info'>
 					<div className='form-input'>
-						<form name='contact' action='POST' data-netlify='true'>
+						<form name='contact' method='post' data-netlify='true' action='#'>
 							<p>
 								<label>
 									Full Name
