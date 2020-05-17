@@ -14,19 +14,19 @@ const Contact = (props) => {
 				<hr />
 				<div className='contact-input-info'>
 					<div className='form-input'>
-						<form name='contact' method='POST' data-netlify='true'>
+						<form name='contact' action='POST' data-netlify='true'>
 							<p>
 								<label>
 									Full Name
 									<br />
-									<input type='text' name='name' className='name' />
+									<input type='text' name='name' className='name' required />
 								</label>
 							</p>
 							<p>
 								<label>
 									Email
 									<br />
-									<input type='email' name='email' />
+									<input type='email' name='email' required />
 								</label>
 							</p>
 
