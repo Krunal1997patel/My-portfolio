@@ -72,7 +72,6 @@ const Dashboard = (props) => {
 						I am a
 						<span
 							className='text-4 typewrite'
-							// data-period='2000'
 							data-type='[ " Full Stack Developer.", " Front End Developer.", " Back End Developer.", " Gamer." ]'
 						></span>
 					</h3>
