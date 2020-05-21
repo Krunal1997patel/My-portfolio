@@ -73,7 +73,7 @@ const Contact = (props) => {
 							<span>Email</span>
 						</a>
 						<a
-							href='https://docs.google.com/document/d/19GHQKMO2MZADJMic1nucwd0NH4qPUXjVan7jX0MSM7o/edit'
+							href='https://resume.creddle.io/resume/28dnftdzwsy'
 							target='blank'
 						>
 							<img src={ResumeLogo} alt='resume-img' />
