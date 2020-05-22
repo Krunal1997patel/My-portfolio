@@ -11,11 +11,11 @@ const Project = (props) => {
 			image: celebDeadOrAlive,
 			name: 'Celebrities Dead or Alive',
 			info:
-				'This application is a questionaire that tests whether you know if a celebrity is still alive or not. ',
+				"This application is a questionaire that tests whether user's know if a celebrity is still alive or not. ",
 			built:
 				'React | Redux | Styled Components | Jest | React Router | full CRUD ',
 			work:
-				'Handled all styling for the application, created the component that allows users to sign in and built out the game timer along with its redirect functionality once the time is up with a global state handling system using React Hooks similar to Redux.',
+				'Handled all styling for the application with Styled Components, created the component that allows users to sign in and built out the game timer along with its redirect functionality once the time is up with a global state handling system using React Hooks similar to Redux.',
 			demo: 'https://celeb-doa.netlify.app/',
 			github: 'https://github.com/Buildweek-Dead-Celebrities',
 		},
