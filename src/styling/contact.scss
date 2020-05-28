@@ -32,10 +32,8 @@
 				color: #000000;
 				text-align: left;
 
-				label {
-					@media only screen and (max-width: 550px) {
-						padding: 0 0 0 20px;
-					}
+				@media only screen and (max-width: 550px) {
+					padding: 0 20px;
 				}
 
 				input {
