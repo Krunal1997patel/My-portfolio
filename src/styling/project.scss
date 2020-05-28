@@ -36,6 +36,10 @@
 				.name {
 					font-size: 35px;
 					margin: 5px 0 10px;
+
+					@media only screen and (max-width: 550px) {
+						text-align: center;
+					}
 				}
 
 				.info {
@@ -93,6 +97,10 @@
 			line-height: 59px;
 			color: black;
 			margin: 0;
+
+			@media only screen and (max-width: 550px) {
+				text-align: center;
+			}
 		}
 
 		hr {

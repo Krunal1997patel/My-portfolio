@@ -32,6 +32,12 @@
 				color: #000000;
 				text-align: left;
 
+				label {
+					@media only screen and (max-width: 550px) {
+						padding: 0 0 0 20px;
+					}
+				}
+
 				input {
 					border-radius: 20px;
 					border: 1px solid white;
@@ -138,6 +144,10 @@
 			line-height: 59px;
 			color: black;
 			margin: 0;
+
+			@media only screen and (max-width: 550px) {
+				text-align: center;
+			}
 		}
 
 		hr {
