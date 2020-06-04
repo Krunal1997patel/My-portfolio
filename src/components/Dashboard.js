@@ -61,6 +61,7 @@ const Dashboard = (props) => {
 		css.innerHTML = '.typewrite > .wrap { border-right: 0.08em solid #000}';
 		document.body.appendChild(css);
 	};
+
 	return (
 		<div className='dashboard-background'>
 			<div className='dashboard-center'>

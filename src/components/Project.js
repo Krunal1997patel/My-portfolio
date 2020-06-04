@@ -3,7 +3,6 @@ import '../styling/project.scss';
 import celebDeadOrAlive from '../images/celeb.png';
 import gigapet from '../images/gigapet.png';
 import Rick from '../images/rick.png';
-import Nasa from '../images/nasa-photo.png';
 
 const Project = (props) => {
 	const allProject = [
@@ -49,7 +48,7 @@ const Project = (props) => {
 	return (
 		<div id='Project' className='project-background'>
 			<div className='project-center'>
-				<h2>Project</h2>
+				<h2>Projects</h2>
 				<hr />
 				<div className='all-project'>
 					{allProject.map((project) => (
